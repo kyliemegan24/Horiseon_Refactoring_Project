@@ -8,6 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* This section deals with the header of the page*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,6 +22,8 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
+/* Below, the changes the "seo" in Horiseon to a slightly different color. This is to highlight Horiseon's SEO capabilities within their logo. */
 
 header h1 .seo {
     color: #d9dcd6;
@@ -41,11 +46,13 @@ header div ul li {
     margin-left: 25px;
 }
 
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This section deals with all of the paragraph text on the page. It standardizes the size to ensure that it is smaller than the other text on the page*/
 p {
     font-size: 16px;
 }
@@ -59,6 +66,8 @@ p {
     background-position: center;
 }
 
+
+/* These floats ensure that text is floating left or right in each of the sections. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +84,7 @@ main {
     margin-left: 20px;
 }
 
+/* This "aside" section addresses the aesthetics of the side bar of the page containing "Lead Generation," "Brand Awareness," and "Cost Management." */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +129,9 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+/* This section refers only to the footer at the bottom of the page*/
 
 footer {
     padding: 30px;
